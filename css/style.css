@@ -1,140 +1,90 @@
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Black.eot");
-  src: url("../font/SFProDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Black.woff2") format("woff2"), url("../font/SFProDisplay-Black.woff") format("woff"), url("../font/SFProDisplay-Black.ttf") format("truetype"), url("../font/SFProDisplay-Black.svg#SFProDisplay-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Bold.eot");
-  src: url("../font/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Bold.woff2") format("woff2"), url("../font/SFProDisplay-Bold.woff") format("woff"), url("../font/SFProDisplay-Bold.ttf") format("truetype"), url("../font/SFProDisplay-Bold.svg#SFProDisplay-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Light.eot");
-  src: url("../font/SFProDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Light.woff2") format("woff2"), url("../font/SFProDisplay-Light.woff") format("woff"), url("../font/SFProDisplay-Light.ttf") format("truetype"), url("../font/SFProDisplay-Light.svg#SFProDisplay-Light") format("svg");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Heavy.eot");
-  src: url("../font/SFProDisplay-Heavy.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Heavy.woff2") format("woff2"), url("../font/SFProDisplay-Heavy.woff") format("woff"), url("../font/SFProDisplay-Heavy.ttf") format("truetype"), url("../font/SFProDisplay-Heavy.svg#SFProDisplay-Heavy") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Semibold.eot");
-  src: url("../font/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Semibold.woff2") format("woff2"), url("../font/SFProDisplay-Semibold.woff") format("woff"), url("../font/SFProDisplay-Semibold.ttf") format("truetype"), url("../font/SFProDisplay-Semibold.svg#SFProDisplay-Semibold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Regular.eot");
-  src: url("../font/SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Regular.woff2") format("woff2"), url("../font/SFProDisplay-Regular.woff") format("woff"), url("../font/SFProDisplay-Regular.ttf") format("truetype"), url("../font/SFProDisplay-Regular.svg#SFProDisplay-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Medium.eot");
-  src: url("../font/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Medium.woff2") format("woff2"), url("../font/SFProDisplay-Medium.woff") format("woff"), url("../font/SFProDisplay-Medium.ttf") format("truetype"), url("../font/SFProDisplay-Medium.svg#SFProDisplay-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Ultralight.eot");
-  src: url("../font/SFProDisplay-Ultralight.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Ultralight.woff2") format("woff2"), url("../font/SFProDisplay-Ultralight.woff") format("woff"), url("../font/SFProDisplay-Ultralight.ttf") format("truetype"), url("../font/SFProDisplay-Ultralight.svg#SFProDisplay-Ultralight") format("svg");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../font/SFProDisplay-Thin.eot");
-  src: url("../font/SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("../font/SFProDisplay-Thin.woff2") format("woff2"), url("../font/SFProDisplay-Thin.woff") format("woff"), url("../font/SFProDisplay-Thin.ttf") format("truetype"), url("../font/SFProDisplay-Thin.svg#SFProDisplay-Thin") format("svg");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../font/SFProText-Bold.eot");
-  src: url("../font/SFProText-Bold.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Bold.woff2") format("woff2"), url("../font/SFProText-Bold.woff") format("woff"), url("../font/SFProText-Bold.ttf") format("truetype"), url("../font/SFProText-Bold.svg#SFProText-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../font/SFProText-Light.eot");
-  src: url("../font/SFProText-Light.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Light.woff2") format("woff2"), url("../font/SFProText-Light.woff") format("woff"), url("../font/SFProText-Light.ttf") format("truetype"), url("../font/SFProText-Light.svg#SFProText-Light") format("svg");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../font/SFProText-Medium.eot");
-  src: url("../font/SFProText-Medium.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Medium.woff2") format("woff2"), url("../font/SFProText-Medium.woff") format("woff"), url("../font/SFProText-Medium.ttf") format("truetype"), url("../font/SFProText-Medium.svg#SFProText-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../font/SFProText-Heavy.eot");
-  src: url("../font/SFProText-Heavy.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Heavy.woff2") format("woff2"), url("../font/SFProText-Heavy.woff") format("woff"), url("../font/SFProText-Heavy.ttf") format("truetype"), url("../font/SFProText-Heavy.svg#SFProText-Heavy") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../font/SFProText-Semibold.eot");
-  src: url("../font/SFProText-Semibold.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Semibold.woff2") format("woff2"), url("../font/SFProText-Semibold.woff") format("woff"), url("../font/SFProText-Semibold.ttf") format("truetype"), url("../font/SFProText-Semibold.svg#SFProText-Semibold") format("svg");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SF Pro Text";
-  src: url("../font/SFProText-Regular.eot");
-  src: url("../font/SFProText-Regular.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Regular.woff2") format("woff2"), url("../font/SFProText-Regular.woff") format("woff"), url("../font/SFProText-Regular.ttf") format("truetype"), url("../font/SFProText-Regular.svg#SFProText-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import "font";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -144,25 +94,36 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
 
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -172,6 +133,437 @@ table {
   border-spacing: 0;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 body {
+  font-family: "SF Pro Display";
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  /* justify-content:flex-start; */
+  padding: 20px 80px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 9999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#header .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#close {
+  display: none;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  /* transition: 0.3s ease; */
+  opacity: .7;
+  transition: 400ms opacity ease-in-out;
+}
+
+#navbar li a:hover {
+  padding: 5px;
+  /* border: 1px solid #1a1a1a; */
+  border-radius: 20px;
+  box-shadow: 0 19px 50px -20px rgba(#8693A4, .74);
+  transition: 400ms box-shadow ease-in-out;
+
+}
+
+/* #navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#navbar li::before {
+  content: '';
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+  box-shadow: 0 15px 13px -12px rgba(#8693A4, .74);
+  transition: 300ms left ease-in-out;
+
+} */
+
+.container .navbar-right span {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #4974e2;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#join-family {
+  margin-bottom: 40px;
+}
+
+#join-family .container .row .join-desc {
+  padding: 100px 40px 0 28px;
+  background-color: #ecfee7;
+}
+
+#join-family .container .row .join-desc .alt-title {
+  margin-bottom: 30px;
+}
+
+.description h1 {
   font-family: "SF Pro Text";
-}/*# sourceMappingURL=style.css.map */
+  font-size: 42px;
+
+}
+
+#join-family .container .row .image {
+  padding-left: 0 !important;
+}
+
+.image img {
+  width: 100%;
+}
+
+#slider {
+  margin-bottom: 30px;
+}
+
+#slider .container .row {
+  display: flex;
+  align-items: center;
+}
+#slider .container .row .heading {
+  display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#slider .container .row .heading p {
+  font-size: 30px;
+}
+#slider .container .row .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 20px;
+  box-shadow: 20px 20px 34px rgb(0 0 0 / 14%);
+}
+
+#slider .container .row .arrow a {
+  color: #74777d;
+}
+
+#slider .container .row .arrow.left {
+  margin-right: 20px;
+}
+
+#slider .container .row img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#slider .container .row .title {
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+#join-family .join .row .heading {
+  background-color: #e7e3dd;
+  padding: 50px auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#join-family .container .row .heading .description {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#join-family .container .row .heading .description h1 {
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+#join-family .container .row .image img {
+  width: 100%;
+  object-fit: contain;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+#join-family .join .row .heading2 {
+  background-color: #e7e3dd;
+  padding: 50px auto;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#join-family .container .row .heading2 .description {
+  display: flex;
+  justify-content: center;
+
+  padding: 30px;
+}
+
+#join-family .container .row .heading2 .description h1 {
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+#join-family .container .row .image2 {
+  padding: 0;
+}
+
+#join-family .container .row .image2 img {
+  width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+
+#section3 .container .row .description {
+  background-color: #ebf2ed;
+  padding: 40px;
+
+}
+
+#section3 .container .row .description.top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#section3 .container .row .image.top img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#section3 .container .row .description.bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: -webkit-right;
+}
+
+#section3 .container .row .image.bottom img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+#section3 .container .row .description h1 {
+  margin-bottom: 0;
+  width: 62%;
+  font-weight: bold;
+}
+
+#register .row {
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#register .row .news-text {
+  margin: 20px;
+  text-align: -webkit-center;
+}
+
+#register .row .news-text p {
+  font-size: 25px;
+  width: 30%;
+}
+
+#register .row .btn {
+  background: transparent;
+  padding: 15px;
+
+}
+
+.btn button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #5175d0;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #5175d0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.btn:hover button {
+  background: #5175d0;
+  color: #fff;
+  transition: 300ms;
+}
+
+#footer {
+  margin-top: 20px;
+}
+
+#footer p {
+  font-size: 10px;
+}
+
+#footer .main-footer .social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .main-footer .social-media .icons a {
+  font-size: 15px;
+}
+
+#footer .main-footer .social-media span {
+  font-size: 10px;
+}
+
+#footer ul {
+  padding-left: 0 !important;
+  display: flex;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+@media (max-width:768px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+  #slider .container .row .arrow {
+    display: none;
+  }
+  #join-family .container .row .join-desc {
+    padding: 31px 37px 20px 28px;
+  }
+
+  #join-family .container .row .heading .description h1 {
+    font-size: 35px;
+    transform: none;
+    writing-mode: lr;
+  }
+
+  #join-family .container .row .heading2 .description h1 {
+    transform: rotate(0deg);
+    writing-mode: lr;
+    font-size: 35px;
+
+  }
+
+  #register .row .news-text p {
+    margin-top: 20px;
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .main-footer .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  #footer ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+}
+
+
